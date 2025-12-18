@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_journey_selection_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_journey_selection" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="14.001 ns"></ZoomEndTime>
+      <Cursor1Time time="1.424 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="184"></NameColumnWidth>
+      <ValueColumnWidth column_width="82"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="8" />
+   <wvobject fp_name="/tb_journey_selection/path" type="array">
+      <obj_property name="ElementShortName">path[2:0]</obj_property>
+      <obj_property name="ObjectShortName">path[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_journey_selection/rd" type="logic">
+      <obj_property name="ElementShortName">rd</obj_property>
+      <obj_property name="ObjectShortName">rd</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_journey_selection/journey_type" type="array">
+      <obj_property name="ElementShortName">journey_type[1:0]</obj_property>
+      <obj_property name="ObjectShortName">journey_type[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_journey_selection/distance" type="array">
+      <obj_property name="ElementShortName">distance[7:0]</obj_property>
+      <obj_property name="ObjectShortName">distance[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_journey_selection/highway_distance" type="array">
+      <obj_property name="ElementShortName">highway_distance[7:0]</obj_property>
+      <obj_property name="ObjectShortName">highway_distance[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_journey_selection/num_adults" type="array">
+      <obj_property name="ElementShortName">num_adults[7:0]</obj_property>
+      <obj_property name="ObjectShortName">num_adults[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_journey_selection/num_children" type="array">
+      <obj_property name="ElementShortName">num_children[7:0]</obj_property>
+      <obj_property name="ObjectShortName">num_children[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_journey_selection/total_cost" type="array">
+      <obj_property name="ElementShortName">total_cost[15:0]</obj_property>
+      <obj_property name="ObjectShortName">total_cost[15:0]</obj_property>
+   </wvobject>
+</wave_config>
